@@ -68,7 +68,7 @@ function deleteItem(event) {
 } 
 
 function upDateTotal() {
-    document.querySelector("#totalExpense").textContent = `₹${total}`;
+    document.querySelector("#totalExpense").textContent = `Your total Expense: ₹${total}`;
 }
 
 document.querySelector(".saveButton").addEventListener("click", () => {
